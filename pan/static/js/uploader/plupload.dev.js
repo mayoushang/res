@@ -1596,7 +1596,7 @@
                         : 0;
                 }
 
-                function handleError(err = null) {
+                function handleError(err) {
                     if (retries-- > 0) {
                         delay(uploadNextChunk, 1000);
                     } else {
