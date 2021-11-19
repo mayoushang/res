@@ -1108,7 +1108,7 @@ function getCookieByString(cookieName) {
                 logger.debug("uploader.runtime: ", uploader.runtime);
                 logger.debug("chunk_size: ", chunk_size);
 
-                getNewUpToken(file, () => {
+                getNewUpToken(file, function(){
                     if (that.token) {
                         getUpHosts(that.token);
                     }
