@@ -1,0 +1,1 @@
+window.reserve_domain = "pans.bilnn.com";
