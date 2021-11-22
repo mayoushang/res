@@ -1,1 +1,1 @@
-window.reserve_domain = "pans.bilnn.com";
+window.reserve_domain = "pan.bilnn.cn";
