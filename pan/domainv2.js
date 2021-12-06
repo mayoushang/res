@@ -2,7 +2,7 @@ window.reserve_domain = "pan.bilnn.cn";
 $.ajax({
     url: "/api/v3/site/ping",
     type: "GET",
-    timeout:2000,
+    timeout:1500,
     dataType: "json",
     complete: function(response, textStatus) {
         if(response.status != 200 && response.status != 501 && response.status != 500) {
